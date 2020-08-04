@@ -6,7 +6,7 @@
 .title-box {
   background: orange;
   color: #fff;
-  width: 600px;
+  width: auto;
   padding: 4px 10px;
   height: 40px;
   text-align: center;
@@ -20,7 +20,7 @@
 }
 /* ------Product Top ---------*/
 .art-top img{
-  width: 90%;
+  width: 100%;
   margin-top: 25px;
 }
 
