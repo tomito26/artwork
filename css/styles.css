@@ -1,0 +1,32 @@
+header{
+background-color: bisque;
+text-align: right;
+padding-top: 20PX;
+border-radius:10PX ;
+}
+.container{
+    background-position: center;
+    background-position: center;
+}
+h1,h2{
+    text-align: center;
+    color: blanchedalmond;
+}
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("../back.jpeg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    /* width: fit-content; */
+    background-size: cover;
+    font-family: lato;
+    line-height:150%;
+    font-size: x-large;
+}
+p{
+    text-align: center;
+    color: blanchedalmond;
+}
+#n,#m,#comment{
+    background-color: transparent;
+}
+
