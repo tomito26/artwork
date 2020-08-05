@@ -14,11 +14,6 @@ body{
     padding: 2em,1.5em;
     text-align: center;
 }
-.view {
-    top: 70%;
-    bottom: auto;
-}
-
 .column>ul>li{
     list-style: none;
 }
