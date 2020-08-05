@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+.carousel-caption{
+    top: 40%;
+    bottom: auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius:20px;
+    padding: 2em,1.5em;
+    text-align: center;
+}
+.view {
+    top: 70%;
+    bottom: auto;
+}
+
+.column>ul>li{
+    list-style: none;
+}
+
+@media only screen and (max-width:600px){
+    .carousel-caption>h1,p,h2{
+        font-size: 14px;
+    }
+}
