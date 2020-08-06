@@ -3,6 +3,7 @@
 }
 body{
     overflow-x: hidden;
+    font-family: 'Lato',sans-serif;
 }
 
 .fa {
@@ -63,9 +64,12 @@ body{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("../back.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 70vh;
     background-size: cover;
     font-family: lato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #n,#m,#comment{
     background-color: transparent;
@@ -94,6 +98,9 @@ body{
 @media only screen and (max-width:600px){
     .carousel-caption>h1,p,h2{
         font-size: 14px;
+    }
+    html{
+      overflow-x: hidden;
     }
 }
 
