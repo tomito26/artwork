@@ -58,13 +58,118 @@ body{
     margin-left: 5%;
     transition: 0.5s;
   }
-  .paintings .title-box {
-    background: orange;
-    color: #fff;
-    width: auto;
-    padding: 4px 10px;
-    height: 40px;
+ 
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("../back.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    font-family: lato;
+}
+#n,#m,#comment{
+    background-color: transparent;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+.carousel-caption{
+    top: 40%;
+    bottom: auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius:20px;
+    padding: 2em,1.5em;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
+}
+.column>ul>li{
+    list-style: none;
+}
+
+@media only screen and (max-width:600px){
+    .carousel-caption>h1,p,h2{
+        font-size: 14px;
+    }
+}
+
+.paintings, .drawings {
+  margin-top: 50px;
+}
+
+.paintings .title-box {
+  background: orange;
+  color: #fff;
+  width: auto;
+  padding: 4px 10px;
+  height: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.drawings .title-box {
+  background: purple;
+  color: #fff;
+  width: auto;
+  padding: 4px 10px;
+  height: 40px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.title-box  h2 {
+  font-size: 28px;
+
+}
+
+.art-top img{
+  width: 100%;
+  margin-top: 25px;
+}
+
+.art-top img:hover {
+  opacity: 0.3;
+}
+
+.overlay-right {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.overlay-right .fa {
+  cursor: pointer;
+  background-color: #fff;
+  color: #a9a9a9;
+  height: 35px;
+  width: 35px;
+  font-size: 20px;
+  margin-top: 5%;
+  padding: 7px;
+  margin-bottom: auto;
+}
+
+.overlay-right .btn-secondary {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.art-top:hover .overlay-right {
+  opacity: 1;
+  margin-left: 5%;
+  transition: 0.1s;
+}
