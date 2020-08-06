@@ -1,32 +1,42 @@
-header{
-background-color: bisque;
-text-align: right;
-padding-top: 20PX;
-border-radius:10PX ;
-}
-.container{
-    background-position: center;
-    background-position: center;
-}
-h1,h2{
-    text-align: center;
-    color: blanchedalmond;
-}
 .main{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("../back.jpeg");
+    background-position: center;
     background-repeat: no-repeat;
     height: 90vh;
-    /* width: fit-content; */
     background-size: cover;
     font-family: lato;
-    line-height:150%;
-    font-size: x-large;
-}
-p{
-    text-align: center;
-    color: blanchedalmond;
 }
 #n,#m,#comment{
     background-color: transparent;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato',sans-serif;
+}
+.carousel-caption{
+    top: 40%;
+    bottom: auto;
+    background-color: rgba(0,0,0,0.7);
+    border-radius:20px;
+    padding: 2em,1.5em;
+    text-align: center;
+}
+.view {
+    top: 70%;
+    bottom: auto;
+}
+
+.column>ul>li{
+    list-style: none;
+}
+
+@media only screen and (max-width:600px){
+    .carousel-caption>h1,p,h2{
+        font-size: 14px;
+    }
+}
