@@ -103,5 +103,5 @@ body{
 .art-top:hover .overlay-right {
   opacity: 1;
   margin-left: 5%;
-  transition: 0.5s;
+  transition: 0.1s;
 }
