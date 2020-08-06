@@ -4,3 +4,67 @@
 body{
     overflow-x: hidden;
 }
+
+.fa {
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+.fa:hover {
+    color: white;
+  }
+
+  .art-top img{
+    width: 100%;
+    margin-top: 25px;
+  }
+  
+  .art-top img:hover {
+    opacity: 0.3;
+  }
+  .overlay-right {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: justify;
+    font-weight: bold;
+  }
+  
+  .overlay-right .fa {
+    cursor: pointer;
+    background-color: #fff;
+    color: #a9a9a9;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    margin-top: 5%;
+    padding: 7px;
+    margin-bottom: auto;
+  }
+  
+  .overlay-right .btn-secondary {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  
+  .art-top:hover .overlay-right {
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+  }
+  .paintings .title-box {
+    background: orange;
+    color: #fff;
+    width: auto;
+    padding: 4px 10px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
