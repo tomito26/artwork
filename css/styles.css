@@ -80,7 +80,7 @@ body{
 .overlay-right .fa {
   cursor: pointer;
   background-color: #fff;
-  color: #000;
+  color: #a9a9a9;
   height: 35px;
   width: 35px;
   font-size: 20px;
@@ -98,5 +98,5 @@ body{
 .art-top:hover .overlay-right {
   opacity: 1;
   margin-left: 5%;
-  transition: 0.5s;
+  transition: 0.1s;
 }
