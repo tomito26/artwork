@@ -1,3 +1,15 @@
+.main{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("../back.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-size: cover;
+    font-family: lato;
+}
+#n,#m,#comment{
+    background-color: transparent;
+}
+
 *{
     padding: 0;
     margin: 0;

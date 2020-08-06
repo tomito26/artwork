@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
@@ -11,6 +13,7 @@
     <title>ArtWork</title>
 </head>
 <body>
+   
     <section id="header">
         <div class="header">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -39,7 +42,7 @@
                         </div>
                         </li>
                         <li class="nav-item pr-5">
-                        <a class="nav-link" href="#" tabindex="-1">Contacts</a>
+                        <a class="nav-link" href="#contact" tabindex="-1">Contacts</a>
                         </li>
                     </ul>
                     <form class="form-inline my-2 my-lg-0 pr-5">
@@ -278,7 +281,21 @@
       </section>
     </section>
     <section id="contact">
-
+      <div class="container main" id="Contacts">
+        <h2 class="text-white text-center">CONTACT US</h2>
+        <div class="form d-flex justify-content-center align-items-center" >
+            <form id="form1">
+              <div class="form-group form-inline">
+                <input type="text" class="form-control" placeholder = "Name...." id="n" size="25">
+                <input type="email" class="form-control"  placeholder = "Email...." id="m" size="25">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control w-100" rows="5" columns="2" id="comment" placeholder = "Your message here...." ></textarea>
+              </div>
+              <button type="submit" class="btn bg-dark text-white" id="sub" onclick="response();">Submit</button>
+            </form>
+        </div>
+      </div>
     </section>
     <section id="footer">
         <div class="container pt-5">
